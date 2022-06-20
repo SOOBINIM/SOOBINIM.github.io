@@ -2,7 +2,7 @@
 
 연산자의 대상 또는 배열 또는 이터러블 개별 요소로 분리
 
-```
+```javascript
 Console.log(…[1,2,3]) // 1,2,3
 Console.log(…'HELLO'); // H E L L O
 Console.log(…new Map([['a', '1'], ['b', 2]]))
@@ -32,7 +32,7 @@ Spread 연산자를 사용한 매개변수 정의를 Rest 파라미터라고 한
 
 객체 안에 연산자 변경
 
-```
+```javascript
 Let Object = {
 A: '1',
 B: '2',

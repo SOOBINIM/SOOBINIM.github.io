@@ -1,6 +1,6 @@
 ## forEach
 
-```jsx
+```javascript
 const heroes = ["아이언맨", "캡틴아메리카", "토르"];
 
 // for 구문 사용
@@ -15,7 +15,7 @@ heroes.forEach((hero) => {
 
 ## MAP
 
-```jsx
+```javascript
 const heroes = ["아이언맨", "캡틴아메리카", "토르"];
 
 // 새로운 배열을 만들고 싶을 때
