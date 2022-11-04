@@ -72,7 +72,7 @@ urlpatterns = [
 ]
 
 # index.html
-<li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
+<li><a href="{% raw %}{% url 'polls:detail' question.id %}">{{ question.question_text }} {% endraw %}</a></li>
 # polls: 를 추가
 
 ```

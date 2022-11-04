@@ -20,7 +20,7 @@ title: "SOOB BLOG"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "Soob"
-description: "Soob's Blog"
+description: "배운 것을 남기기 위한 공간입니다. 개발과 관련된 내용이 주된 내용입니다. "
 url: "https://SOOBINIM.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -207,6 +207,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jemoji
   - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
