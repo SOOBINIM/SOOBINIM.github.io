@@ -1,3 +1,8 @@
+---
+layout: post
+categories: react
+---
+
 ![](https://velog.velcdn.com/images/lsoob/post/7dd372f9-a5d2-4441-952f-14c1973fd69b/image.png)
 
 > 리액트 axios로 외부 API get 하려고 하니,

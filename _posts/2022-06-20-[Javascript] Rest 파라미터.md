@@ -1,3 +1,8 @@
+---
+layout: post
+categories: javascript
+---
+
 ### Rest 파라미터
 
 Rest 파라미터는 Spread 연산자(…)를 사용하여 파라미터를 정의한 것을 의미 한다.

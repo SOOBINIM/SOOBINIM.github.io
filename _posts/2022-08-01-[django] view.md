@@ -1,3 +1,7 @@
+---
+categories: django
+---
+
 `뷰 추가하기`
 
 - HttpResponse 객체로 반환

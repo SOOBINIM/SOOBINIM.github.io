@@ -1,3 +1,8 @@
+---
+layout: post
+categories: react
+---
+
 ## Fragment
 
 ````

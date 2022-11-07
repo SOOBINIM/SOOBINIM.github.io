@@ -1,3 +1,8 @@
+---
+layout: post
+categories: javascript
+---
+
 ### Spread 연산자
 
 연산자의 대상 또는 배열 또는 이터러블 개별 요소로 분리

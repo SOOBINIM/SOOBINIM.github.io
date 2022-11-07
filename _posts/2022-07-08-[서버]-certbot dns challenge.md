@@ -1,3 +1,7 @@
+---
+categories: etc
+---
+
 # SSL 인증
 
 `certbot dns challenge`

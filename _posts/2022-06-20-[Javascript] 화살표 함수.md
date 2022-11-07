@@ -1,3 +1,8 @@
+---
+layout: post
+categories: javascript
+---
+
 ### 화살표 함수
 
 _매개변수 지정 방법_

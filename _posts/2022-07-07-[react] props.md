@@ -1,3 +1,8 @@
+---
+layout: post
+categories: react
+---
+
 ## props 값 설정 생략 하면 = {true}
 
 ```jsx

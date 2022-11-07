@@ -1,3 +1,7 @@
+---
+categories: etc
+---
+
 - ## windows에 wsl 이용해서 ubuntu 설치하기
 
   `wsl 설치`

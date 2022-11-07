@@ -1,3 +1,8 @@
+---
+layout: post
+categories: react
+---
+
 # useEffect
 
 ## 첫 번째 파라미터에는 함수

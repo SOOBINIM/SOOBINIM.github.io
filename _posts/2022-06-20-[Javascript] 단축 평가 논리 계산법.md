@@ -1,3 +1,7 @@
+---
+categories: javascript
+---
+
 ```javascript
 // && 연산자로 코드 단축시키기
 

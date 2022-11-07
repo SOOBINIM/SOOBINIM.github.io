@@ -1,3 +1,8 @@
+---
+layout: post
+categories: react
+---
+
 # useMemo
 
 - 특정 연산된 값을 재사용/ 새로 만들어야 함

@@ -1,3 +1,8 @@
+---
+layout: post
+categories: react
+---
+
 ## 생성
 
 ### onCreate

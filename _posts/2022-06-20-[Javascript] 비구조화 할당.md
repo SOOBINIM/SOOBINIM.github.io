@@ -1,3 +1,8 @@
+---
+layout: post
+categories: javascript
+---
+
 ```javascript
 const animal = {
     name : ‘쫑아’,
