@@ -1,7 +1,7 @@
 ---
 title: "fastAPI"
 layout: archive
-permalink: categories/fastapi
+permalink: categories/fastAPI
 author_profile: true
 sidebar_main: true
 ---
