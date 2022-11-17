@@ -8,7 +8,11 @@ CSS 클래스를 중복되지 않게 작성
 
 이름을 지을 때 특별한 규칙을 사용, CSS Selector를 활용
 
+---
+
 ## 이름 짓는 규칙
+
+---
 
 App-header 와 같이 “컴포넌트 이름-클래스”
 
@@ -16,7 +20,11 @@ App-header 와 같이 “컴포넌트 이름-클래스”
 
 이름을 지을 떄 일종의 규칙을 준수하여 해당 클래스가 어디에서 어떤 용도로 사용되는지 명확하게 작성 예를 들면 .card\_\_title-primary
 
+---
+
 ## CSS Selector
+
+---
 
 CSS 클래스가 특정 클래스 내부에 있는 경우에만 사용가능
 
@@ -178,7 +186,11 @@ const SassComponent = () => {
 export default SassComponent;
 ```
 
+---
+
 ## utils 함수 분리
+
+---
 
 여러 파일에서 사용될 수 있는 Sass 변수 및 믹스인을
 
@@ -192,7 +204,11 @@ src 디렉터리에 styles라는 디렉터리를 생성 후
 @import './styles/utils';
 ```
 
+---
+
 ## sass-loader 설정 커스터마이징
+
+---
 
 필수 사항은 아니지만, 해두면 유용
 
@@ -246,7 +262,11 @@ create-react-app은 기본적으로 Git설정이 되어있으므로
 @import "utils.scss";
 ```
 
+---
+
 ## node_modules에서 라이브러리 불러오기
+
+---
 
 ```css
 // 복잡
