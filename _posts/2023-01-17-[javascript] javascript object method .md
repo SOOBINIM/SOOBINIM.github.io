@@ -42,7 +42,7 @@ console.log(cloneUser);
 // { name: 'lim', age: 30 }
 ```
 
-객체를 새로운 변수에 대입을 하면 메모리 주소 값이 들어가게된다.
+객체를 새로운 변수에 대입을 하면 메모리 주소 값이 (참조값만 복사)들어가게된다.
 
 따라서 기존 값이 바뀌면 값이 같이 바뀌게 된다.
 
@@ -169,4 +169,40 @@ values 메소드는 객체의 값들을 배열로 반환한다.
 
 # Object.entries()
 
+`키와 값 모두 배열로 반환`
+
+### 키와 값을 모두 배열로 반환
+
+```jsx
+const user = {
+  name: "soob",
+  age: 30,
+  gender: "man",
+};
+
+const userKeysValues = Object.entries(user);
+console.log(userKeysValues);
+// [ [ 'name', 'soob' ], [ 'age', 30 ], [ 'gender', 'man' ] ]
+```
+
+배열 안에 배열로 키와 값이 같이 반환 된다.
+
 # Object.fromEntries()
+
+`배열을 객체로 반환`
+
+### 배열을 객체로 만들어줄 때
+
+```jsx
+const userKeysValues = [
+  ["name", "soob"],
+  ["age", 30],
+  ["gender", "man"],
+];
+
+const fromEntriesUser = Object.fromEntries(userKeysValues);
+console.log(fromEntriesUser);
+// { name: 'soob', age: 30, gender: 'man' }
+```
+
+배열 값을 객체로 만들어줄 때 fromEntries 메서드를 사용하면 된다.
