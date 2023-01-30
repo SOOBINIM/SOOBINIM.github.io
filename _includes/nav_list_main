@@ -32,7 +32,7 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "react" %}
+                    {% if category[0] == "nextjs" %}
                         <li><a href="/categories/nextjs" class="">넥스트 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
